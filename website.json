@@ -1,0 +1,76 @@
+[
+    {
+        "url": "https://www.bug.co.il/brand/ps5/ps5/console/digital",
+        "blacklist": ["חסר זמנית"]
+    },
+    {
+        "url": "https://www.bug.co.il/brand/ps5/ps5/console/blue/ray",
+        "blacklist": ["חסר זמנית"]
+    },
+    {
+        "url": "https://www.ivory.co.il/catalog.php?act=cat&site-search=1&q=playstation+5",
+        "whitelist": ["playstation 5", "ps5"]
+    },
+    {
+        "url": "https://toysrus.co.il/catalogsearch/result/?q=playstation",
+        "whitelist": ["playstation 5", "ps5"]
+    },
+    {
+        "url": "https://www.ivory.co.il/catalog.php?act=cat&site-search=1&q=ps5",
+        "whitelist": ["קונסולה"]
+    },
+    {
+        "url": "https://www.payngo.co.il/computers-pcs/computing-gaming/gaming-console.html?data=&dir=asc&formKey=&mode=list&mvtg=sony&order=price&svg_mvcr=qvnsvlvt",
+        "whitelist": ["playstation 5", "ps5"]
+    },
+    {
+        "url": "https://ksp.co.il/?select=.253..255..323.&kg=&list=1&sort=3&glist=0&uin=0&txt_search=&buy=&minprice=1900&maxprice=0&intersect=&rintersect=&store_real=",
+        "whitelist": ["playstation 5", "ps5"],
+        "soup": {
+            "tag": "div",
+            "property": "id",
+            "value": "categboxes"
+        }
+    },
+    {
+        "url": "https://www.alm.co.il/smartphones-laptops-techproducts/gaming-consoles/l/brand:sony.html",
+        "whitelist": ["playstation 5", "ps5"]
+    },
+    {
+        "url": "https://www.officedepot.co.il/items/3351642-%D7%A7%D7%95%D7%A0%D7%A1%D7%95%D7%9C%D7%94-PS5-%D7%9C%D7%91%D7%A0%D7%94-%D7%A2%D7%9D-%D7%9B%D7%95%D7%A0%D7%9F-%D7%91%D7%9C%D7%95%D7%A8%D7%99%D7%99-PlayStation-5-825GB-Bluray-Sony",
+        "blacklist": "1313131313.png"
+    },
+    {
+        "url": "https://www.bestmobile.co.il/catalogsearch/result/?q=playstation+5",
+        "whitelist": ["playstation 5", "ps5"],
+        "soup": {
+            "tag": "div",
+            "property": "class",
+            "value": "search results"
+        }
+    },
+    {
+        "url": "https://www.bestmobile.co.il/catalogsearch/result/?q=ps5",
+        "whitelist": ["קונסולה"]
+    },
+    {
+        "url": "https://www.kravitz.co.il/10032968-%D7%A7%D7%95%D7%A0%D7%A1%D7%95%D7%9C%D7%94-sony-ps5",
+        "blacklist": ["outofstock"]
+    },
+    {
+        "url": "https://www.joystickplus.co.il/category/playstation-5-%D7%A7%D7%95%D7%A0%D7%A1%D7%95%D7%9C%D7%95%D7%AA",
+        "whitelist": ["playstation 5", "ps5"]
+    },
+    {
+        "url": "https://arcadia.co.il/product-category/playstation-5/%d7%a7%d7%95%d7%a0%d7%a1%d7%95%d7%9c%d7%95%d7%aa-ps5/",
+        "blacklist": ["אזל במלאי"]
+    },
+    {
+        "url": "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%94%D7%A7%D7%A0%D7%99%D7%95%D7%9F-%D7%94%D7%9B%D7%9C-%D7%9C%D7%91%D7%99%D7%AA/%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94-%D7%95%D7%A1%D7%9C%D7%95%D7%9C%D7%A8/%D7%9E%D7%97%D7%A9%D7%91%D7%99%D7%9D-%D7%95%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92/%D7%A7%D7%95%D7%A0%D7%A1%D7%95%D7%9C%D7%95%D7%AA-%D7%95%D7%9E%D7%A9%D7%97%D7%A7%D7%99%D7%9D/ps5-CFI-1016B/p/P_711719395300",
+        "blacklist": ["המוצר חסר במלאי"]
+    },
+    {
+	"url": "https://www.shufersal.co.il/online/he/קטגוריות/הקניון-הכל-לבית/אלקטרוניקה-וסלולר/מחשבים-וגיימינג/קונסולות-ומשחקים/PS5-CFI-1016A/p/P_711719395201",
+	"blacklist": ["המוצר חסר במלאי"]
+    }
+]

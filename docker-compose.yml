@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+    app:
+        image: ps5-python
+        build: .
+        networks:
+          - default
+        restart: always
+        working_dir: /app
+        volumes:
+            - ./website.json:/app/website.json
+
+    smtp:
+        image: namshi/smtp
+        restart: always
+        networks:
+          - default
+
+networks:
+   default:
